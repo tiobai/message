@@ -1,3 +1,6 @@
+* {
+      font-size: .9rem;
+}
 body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 
 #form { 
@@ -15,7 +18,6 @@ body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSyst
       flex-grow: 1; 
       border-radius: 2rem; 
       margin: 0.25rem; 
-      font-size: 3.5rem;
       }
 #input:focus { outline: none; }
 #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
