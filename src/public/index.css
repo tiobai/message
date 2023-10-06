@@ -1,5 +1,5 @@
 * {
-      font-size: .9rem;
+      font-size: 1.8rem;
 }
 body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 
@@ -20,17 +20,26 @@ body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSyst
       margin: 0.25rem; 
       }
 #input:focus { outline: none; }
-#form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+#form > button { background: #333; border: none; padding: 1%; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
 
 #messages { list-style-type: none; margin: 0; padding: 0; }
 #messages > li { padding: 0.5rem 1rem; }
 #messages > li:nth-child(odd) { background: #efefef; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 925px) {
       #input {
             width: 70%;
       }
       button {
             width: 18%;
+            font-size: .5em;
+      }
+}
+@media screen and (max-width: 610px) {
+      button {
+            font-size: .3em;
+      }
+      #form {
+            height: 4rem;
       }
 }
